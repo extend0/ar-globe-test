@@ -1,0 +1,28 @@
+{
+  "name": "construkted_xr",
+  "version": "1.0.0",
+  "description": "WebXR tool for exploring and navigating through Construkted 3d tile data",
+  "main": "construkted-xr-dependencies.js",
+  "scripts": {
+    "build": ".\\node_modules\\.bin\\rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/extend0/ar-globe-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/extend0/ar-globe-test/issues"
+  },
+  "homepage": "https://github.com/extend0/ar-globe-test#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "rollup": "^2.17.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^3.1.2",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
